@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my task</title>
+    <style>
+          h1{
+            background-color: blue;
+            color: white;
+            text-align: center;
+          }
+          h2{
+            color: chartreuse;
+            text-decoration: underline;
+            text-decoration-color: red;
+          }       
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vp;
+            background-color: gray;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: black;
+            padding: 20px;
+            
+        }
+
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .textbar{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: black;
+            padding:10px;
+            width:150px;
+            height:300px;
+        }
+        .right {
+            color: white;
+            text-decoration: none;
+           font-size: 20px;
+        }
+
+        .left {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .card{
+            width: 100px;
+            height: 200ppx;
+            background-color:yellow;
+            border: 2px solid black;
+            text-align:center ;
+
+            border-radius: 10px;
+            padding: 10px;
+            
+        }
+
+        .cal{
+            display: flex;
+            flex-direction: row;
+            
+            gap:10px;
+        }
+
+        .poov{
+            width: 80px;
+            height: 80px;
+            background-color: aqua;
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        .dp{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 10px;
+        }
+
+        .poovarasan{
+            width: 80px;
+            height: 80px;
+            background-color: aqua;
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+            .gallery{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                gap: 15px;
+                padding: 20px;
+            }
+            .gallery img{
+                width: 250px;
+                height: 180px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS FLEX MODEL ASSIGNMENT TASK</h1>
+
+    <h2>task 1 center box model </h2>
+
+    <div class="container">
+        <div class="box">python</div>
+    </div>
+
+    <h2> task2 horizontal navigation bar model</h2>
+    
+    <div class="navbar">
+        <a href="#">about</a>
+        <a href="#">home</a>
+        <a href="#">search</a>
+        <a href="#">contact</a>
+        <a href="#">login</a>
+    </div>
+
+
+    <h2> task 3 vertical navigation bar model</h2>
+
+    <div class="textbar">
+        
+        <a class="right" href="#">about</a>
+        <a class="right" href="#">home</a>
+        <a class="right" href="#">search</a>
+        <a class="right" href="#">contact</a>
+        <a class="right" href="#">login</a>
+        
+    </div>
+
+    <h2> task 4 card layout flex box model</h2>
+     <h3> cards</h3>
+     <div class="left"> 
+        <div class="card">
+            <h3>card 1</h3>
+            <p>praveen</p>
+        </div>
+        <div class="card">
+            <h3>card2</h3>
+            <p>guru</p>
+        </div>
+        <div class="card">
+            <h3>card3</h3>
+            <p>gokul</p>
+        </div>
+        <div class="card">
+            <h3>card4</h3>
+            <p>vinoth</p>
+        </div>
+        <div class="card">
+            <h3>card5</h3>
+            <p>durai</p>
+        </div>
+     </div>
+
+     <h2> task 5 responsive row model</h2>
+
+    <div class="cal">
+      <div class="poov">boxA</div>
+      <div class="poov">boxB</div>
+      <div class="poov">boxC</div>
+      
+      </div>
+
+      <h2> task 6 responsive column model</h2>
+
+    <div class="dp">
+      <div class="poovarasan">boxA</div>
+      <div class="poovarasan">boxB</div>
+      <div class="poovarasan">boxC</div>
+      
+      </div>
+
+      <h1>task 7 image galary flex model</h1>
+       <div class="gallery">
+        <img src="Duke 390.jpg" alt="bike">
+        <img src="Duke 390.jpg" alt="bike">
+        <img src="Duke 390.jpg" alt="bike">
+        <img src="Duke 390.jpg" alt="bike">
+        <img src="Duke 390.jpg" alt="bike">
+        <img src="Duke 390.jpg" alt="bike">
+        <img src="Duke 390.jpg" alt="bike">
+        <img src="Duke 390.jpg" alt="bike">
+        
+        
+
+       </div>
+
+</body>
+</html>
+
+
